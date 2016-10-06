@@ -30,6 +30,7 @@
 import socket
 import fcntl
 import struct
+import time
 
 import pyupm_i2clcd as lcd
 
@@ -57,3 +58,5 @@ myLcd.setCursor(0,0)
 # Print it.
 ip_address = get_ip_address('wlan0')
 myLcd.write(ip_address)
+
+time.sleep(5)

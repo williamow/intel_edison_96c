@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# Copyright (c) 2015 Max Vilimpoc§
+# Copyright (c) 2015 Max Vilimpoc
 #
 # References:
 # http://stackoverflow.com/questions/24196932/how-can-i-get-the-ip-address-of-eth0-in-python

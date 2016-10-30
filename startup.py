@@ -2,6 +2,8 @@
 #
 # Copyright (c) 2015 Max Vilimpoc
 #
+# http://www.instructables.com/id/Show-the-Intel-Edison-WiFi-IP-Address-on-a-Grove-L/step2/Run-the-Code/
+#
 # References:
 # http://stackoverflow.com/questions/24196932/how-can-i-get-the-ip-address-of-eth0-in-python
 

@@ -1,0 +1,5 @@
+set (libname "lsm303")
+set (libdescription "Triaxial accelerometer/magnetometer")
+set (module_src ${libname}.cxx)
+set (module_hpp ${libname}.hpp)
+upm_module_init()

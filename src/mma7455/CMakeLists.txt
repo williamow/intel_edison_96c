@@ -1,0 +1,5 @@
+set (libname "mma7455")
+set (libdescription "Freescale Semiconductor 3-axis accelerometer module")
+set (module_src ${libname}.cxx)
+set (module_hpp ${libname}.hpp)
+upm_module_init()

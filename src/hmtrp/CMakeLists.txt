@@ -1,0 +1,5 @@
+set (libname "hmtrp")
+set (libdescription "Grove serial rf pro (hmtrp) module")
+set (module_src ${libname}.cxx)
+set (module_hpp ${libname}.hpp)
+upm_module_init()

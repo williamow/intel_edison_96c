@@ -1,0 +1,5 @@
+set (libname "bmpx8x")
+set (libdescription "Bosch BMP & GY65 atmospheric pressure sensor library")
+set (module_src ${libname}.cxx)
+set (module_hpp ${libname}.hpp)
+upm_module_init()

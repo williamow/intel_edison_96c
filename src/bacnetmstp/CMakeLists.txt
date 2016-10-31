@@ -1,0 +1,11 @@
+set (libname "bacnetmstp")
+set (libdescription "Driver module for BACnet MS/TP devices")
+set (module_src ${libname}.cxx device-client.c bacnetutil.cxx)
+set (module_hpp ${libname}.hpp bacnetutil.hpp)
+
+if (BACNET_FOUND)
+  set (reqlibname "libbacnet")
+  include_directories(${BACNET_INCLUDE_DIRS})
+  upm_module_init()
+  upm_target_link_libraries(${libname} ${BACNET_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT})
+endif ()

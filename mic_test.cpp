@@ -1,4 +1,5 @@
 #include "mraa/aio.h"
+#include <stdlib.h>
 
 int main() {
 	mraa_aio_context adc_a0;
@@ -15,6 +16,7 @@ int main() {
 		adc_value_float = mraa_aio_read_float(adc_a0);
 		fprintf(stdout, "ADC A0 read %X - %d\n", adc_value, adc_value);
 		fprintf(stdout, "ADC A0 read float - %.5f\n", adc_value_float);
+		delay(1000);
 	}
 	mraa_aio_close(adc_a0);
 	return MRAA_SUCCESS;

@@ -1,5 +1,8 @@
+#include<time.h>
+
 #include "mraa/aio.h"
-#include <stdlib.h>
+
+void delay(int milliseconds);
 
 int main() {
 	mraa_aio_context adc_a0;
@@ -16,8 +19,25 @@ int main() {
 		adc_value_float = mraa_aio_read_float(adc_a0);
 		fprintf(stdout, "ADC A0 read %X - %d\n", adc_value, adc_value);
 		fprintf(stdout, "ADC A0 read float - %.5f\n", adc_value_float);
-		std::delay(1000);
+		delay(500);
 	}
 	mraa_aio_close(adc_a0);
 	return MRAA_SUCCESS;
+}
+void delay(int milliseconds)
+
+{
+
+	long pause;
+
+	clock_t now, then;
+
+	pause = milliseconds*(CLOCKS_PER_SEC / 1000);
+
+	now = then = clock();
+
+	while ((now - then) < pause)
+
+		now = clock();
+
 }

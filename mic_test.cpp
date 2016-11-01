@@ -14,12 +14,11 @@ int main() {
 		return 1;
 	}
 
-	for (;;) {
+	for (int q = 0; q < 1000; q = q+1) {
 		adc_value = mraa_aio_read(adc_a0);
 		adc_value_float = mraa_aio_read_float(adc_a0);
-		fprintf(stdout, "ADC A0 read %X - %d\n", adc_value, adc_value);
-		fprintf(stdout, "ADC A0 read float - %.5f\n", adc_value_float);
-		delay(500);
+		fprintf(stdout, "%d\n", adc_value);
+		//delay(500);
 	}
 	mraa_aio_close(adc_a0);
 	return MRAA_SUCCESS;

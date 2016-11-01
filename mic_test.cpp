@@ -6,18 +6,18 @@ void delay(int milliseconds);
 
 int main() {
 	mraa_aio_context adc_a0;
-	uint16_t adc_value = 0;
-	float adc_value_float = 0.0;
 
 	adc_a0 = mraa_aio_init(0);
 	if (adc_a0 == NULL) {
 		return 1;
 	}
-
+	int data[1000];
 	for (int q = 0; q < 1000; q = q+1) {
-		adc_value = mraa_aio_read(adc_a0);
-		adc_value_float = mraa_aio_read_float(adc_a0);
-		fprintf(stdout, "%d\n", adc_value);
+		data[q] = mraa_aio_read(adc_a0);
+		//delay(500);
+	}
+	for (int q = 0; q < 1000; q = q + 1) {
+		fprintf(stdout, "%d\n", data[q]);
 		//delay(500);
 	}
 	mraa_aio_close(adc_a0);

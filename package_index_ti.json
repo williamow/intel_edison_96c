@@ -14,6 +14,9 @@
           "architecture": "msp430",
           "version": "1.0.1",
           "category": "Energia",
+          "help": {
+            "online": ""
+          },
           "url": "http://energia.nu/downloads/download_core.php?file=msp430-1.0.1.tar.bz2",
           "archiveFileName": "msp430-1.0.1.tar.bz2",
           "checksum": "SHA-256:3d687d768013a46a580f0b24fb7e7458bc7175e9a60ecb212ea7cb4bfcd80261",
@@ -49,6 +52,9 @@
           "architecture": "msp432",
           "version": "1.3.3",
           "category": "Energia",
+          "help": {
+            "online": ""
+          },
           "url": "http://energia.nu/downloads/download_core.php?file=msp432-1.3.3.tar.bz2",
           "archiveFileName": "msp432-1.3.3.tar.bz2",
           "checksum": "SHA-256:621ed7bae1470cac939b65e62a900998758cab940d12fba4034c16c4c9b15da3",
@@ -79,6 +85,9 @@
           "architecture": "msp432",
           "version": "1.0.15",
           "category": "Energia",
+          "help": {
+            "online": ""
+          },
           "url": "http://energia.nu/downloads/download_core.php?file=msp432-1.0.15.tar.bz2",
           "archiveFileName": "msp432-1.0.15.tar.bz2",
           "checksum": "SHA-256:6c38a9c4b396c01f163e53075b87c064fc3edb55407958d46666880129dbad44",
@@ -109,6 +118,9 @@
           "architecture": "tivac",
           "version": "1.0.2",
           "category": "Energia",
+          "help": {
+            "online": ""
+          },
           "url": "http://energia.nu/downloads/download_core.php?file=tivac-1.0.2.tar.bz2",
           "archiveFileName": "tivac-1.0.2.tar.bz2",
           "checksum": "SHA-256:932d7d66dddf9ce4e498b737157c671b668cb450536f7223186e03955ae08041",
@@ -139,6 +151,9 @@
           "architecture": "cc13xx",
           "version": "3.6.1",
           "category": "Energia",
+          "help": {
+            "online": ""
+          },
           "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.6.1.tar.bz2",
           "archiveFileName": "cc13xx-3.6.1.tar.bz2",
           "checksum": "SHA-256:bbdb1404c748a9e8dc3dbad3d267c8de89d04a7aca62249b47866710ce6b6bda",
@@ -169,6 +184,9 @@
           "architecture": "cc13xx",
           "version": "3.7.0",
           "category": "Energia",
+          "help": {
+            "online": ""
+          },
           "url": "http://energia.nu/downloads/download_core.php?file=cc13xx-3.7.0.tar.bz2",
           "archiveFileName": "cc13xx-3.7.0.tar.bz2",
           "checksum": "SHA-256:9187d55612bf9681b76b1c20fd960021f93f869538e886cf6e109b31b7e5b0dc",
@@ -199,6 +217,9 @@
           "architecture": "cc3200",
           "version": "1.0.2",
           "category": "Energia",
+          "help": {
+            "online": ""
+          },
           "url": "http://energia.nu/downloads/download_core.php?file=cc3200-1.0.2.tar.bz2",
           "archiveFileName": "cc3200-1.0.2.tar.bz2",
           "checksum": "SHA-256:48ad1392d766fd354a368576989e42375da6e072e8337ffa2424463f5c632446",
